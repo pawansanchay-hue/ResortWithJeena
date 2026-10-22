@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Account</title>
+  <meta name="description" content="Your reservations, food orders and profile at Jeena Resort & Spa.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <section class="account-hero">
+      <div class="container">
+        <div class="account-id">
+          <span class="avatar" id="acAvatar"></span>
+          <div>
+            <h1 id="acName">My Account</h1>
+            <p class="mb-0" id="acEmail"></p>
+          </div>
+        </div>
+        <div class="account-actions">
+          <a class="btn btn-sm" href="/booking.html">New booking</a>
+          <a class="btn btn-sm btn-outline-light" href="/food.html">Order food</a>
+          <button class="btn btn-sm btn-outline-light" type="button" id="acSignOut">Sign out</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:34px">
+      <div class="container">
+        <div class="grid" style="grid-template-columns:250px 1fr;gap:34px;align-items:start" id="acLayout">
+          <aside class="account-nav" id="acNav">
+            <button class="account-tab active" type="button" data-tab="overview">Overview</button>
+            <button class="account-tab" type="button" data-tab="bookings">My bookings</button>
+            <button class="account-tab" type="button" data-tab="orders">Food orders</button>
+            <button class="account-tab" type="button" data-tab="profile">Profile</button>
+            <button class="account-tab" type="button" data-tab="security">Security</button>
+            <a class="account-tab" href="/contact.html">Need help?</a>
+          </aside>
+
+          <div>
+            <!-- overview -->
+            <div data-tab-panel="overview">
+              <h2>Welcome back, <span id="ovName"></span></h2>
+              <p class="muted">Here is a snapshot of your stays with us.</p>
+              <div class="grid grid-4" id="ovStats"></div>
+              <div class="card card-pad mt-3">
+                <div class="flex items-center justify-between flex-wrap mb-2">
+                  <h3 class="mb-0">Your next stay</h3>
+                  <a class="btn-link" href="#" data-goto-tab="bookings">View all bookings</a>
+                </div>
+                <div id="ovNext"></div>
+              </div>
+              <div class="grid grid-2 mt-3" id="ovQuick"></div>
+            </div>
+
+            <!-- bookings -->
+            <div data-tab-panel="bookings" hidden>
+              <div class="flex items-center justify-between flex-wrap mb-2">
+                <h2 class="mb-0">My bookings</h2>
+                <div class="tabs" id="bookingStatusTabs">
+                  <button class="tab-btn active" type="button" data-status="All">All</button>
+                  <button class="tab-btn" type="button" data-status="Pending">Pending</button>
+                  <button class="tab-btn" type="button" data-status="Confirmed">Confirmed</button>
+                  <button class="tab-btn" type="button" data-status="CheckedIn">Checked in</button>
+                  <button class="tab-btn" type="button" data-status="CheckedOut">Completed</button>
+                  <button class="tab-btn" type="button" data-status="Cancelled">Cancelled</button>
+                </div>
+              </div>
+              <div id="bookingList"></div>
+            </div>
+
+            <!-- orders -->
+            <div data-tab-panel="orders" hidden>
+              <h2>Food orders</h2>
+              <p class="muted">Everything you have ordered from the kitchen.</p>
+              <div id="orderList"></div>
+            </div>
+
+            <!-- profile -->
+            <div data-tab-panel="profile" hidden>
+              <h2>Profile details</h2>
+              <p class="muted">Keep your contact details current so we can reach you about your stay.</p>
+              <div class="card card-pad">
+                <form class="form" id="profileForm" novalidate>
+                  <div class="form-row">
+                    <div class="field"><label for="pfName">Full name</label><input id="pfName" required></div>
+                    <div class="field"><label for="pfPhone">Mobile number</label><input id="pfPhone"></div>
+                  </div>
+                  <div class="field"><label for="pfEmail">Email (cannot be changed here)</label><input id="pfEmail" disabled></div>
+                  <div class="field"><label for="pfAvatar">Avatar image URL</label>
+                    <input id="pfAvatar" placeholder="/assets/person-1.svg">
+                    <span class="small muted">Paste a link, or upload from Admin &gt; Media and copy the URL.</span></div>
+                  <div id="profileAlert"></div>
+                  <button class="btn" type="submit" id="profileBtn">Save changes</button>
+                </form>
+              </div>
+            </div>
+
+            <!-- security -->
+            <div data-tab-panel="security" hidden>
+              <h2>Security</h2>
+              <p class="muted">Change the password you use to sign in.</p>
+              <div class="card card-pad">
+                <form class="form" id="passwordForm" novalidate>
+                  <div class="field"><label for="cpCurrent">Current password</label><input type="password" id="cpCurrent" required></div>
+                  <div class="form-row">
+                    <div class="field"><label for="cpNew">New password</label><input type="password" id="cpNew" required placeholder="At least 6 characters"></div>
+                    <div class="field"><label for="cpConfirm">Confirm new password</label><input type="password" id="cpConfirm" required></div>
+                  </div>
+                  <div id="passwordAlert"></div>
+                  <button class="btn" type="submit" id="passwordBtn">Update password</button>
+                </form>
+              </div>
+              <div class="card card-pad mt-3">
+                <h4>Signed in on this device</h4>
+                <p class="muted small mb-2">Signing out removes your session from this browser only.</p>
+                <button class="btn btn-outline" type="button" id="acSignOut2">Sign out of this device</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/account.js"></script>
+</body>
+</html>

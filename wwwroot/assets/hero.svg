@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Welcome to Jeena">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a2540"/><stop offset="55%" stop-color="#12548c"/><stop offset="100%" stop-color="#7fc6e8"/>
+    </linearGradient>
+    <linearGradient id="ridge0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0b2b47"/><stop offset="100%" stop-color="#0b2b47" stop-opacity="0.35"/></linearGradient>
+    <linearGradient id="ridge1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f3b60"/><stop offset="100%" stop-color="#0f3b60" stop-opacity="0.5"/></linearGradient>
+    <linearGradient id="ridge2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#14507c"/><stop offset="100%" stop-color="#14507c" stop-opacity="0.7"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0%" stop-color="#ffe08a" stop-opacity="0.9"/><stop offset="100%" stop-color="#ffe08a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="888" cy="224.00000000000003" r="220" fill="url(#glow)"/>
+  <circle cx="888" cy="224.00000000000003" r="58" fill="#ffe08a" opacity="0.85"/>
+  <circle cx="120" cy="70" r="2.4" fill="#fff" opacity="0.5"/><circle cx="310" cy="104" r="1.6" fill="#fff" opacity="0.5"/><circle cx="500" cy="138" r="2.4" fill="#fff" opacity="0.5"/><circle cx="690" cy="70" r="1.6" fill="#fff" opacity="0.5"/><circle cx="880" cy="104" r="2.4" fill="#fff" opacity="0.5"/><circle cx="1070" cy="138" r="1.6" fill="#fff" opacity="0.5"/>
+  <polygon points="0,800 0,380 133,488 267,450 400,373 533,318 667,406 800,475 933,448 1067,353 1200,334 1200,800" fill="url(#ridge0)" opacity="0.85"/>
+  <polygon points="0,800 0,529 133,483 267,463 400,552 533,569 667,534 800,477 933,463 1067,532 1200,578 1200,800" fill="url(#ridge1)" opacity="0.9"/>
+  <polygon points="0,800 0,648 133,649 267,616 400,572 533,606 667,658 800,674 933,631 1067,601 1200,593 1200,800" fill="url(#ridge2)" opacity="0.95"/>
+  <g transform="translate(942,763) scale(1.01)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(122,766) scale(1.11)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(770,760) scale(0.52)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(261,757) scale(0.51)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(750,738) scale(0.86)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(642,743) scale(0.62)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(321,747) scale(0.95)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(450,750) scale(0.88)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(910,741) scale(1.15)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(862,776) scale(0.88)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(965,727) scale(0.51)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(525,760) scale(1.18)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(186,726) scale(0.71)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(891,776) scale(1.18)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0b2b47"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0b2b47"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g>
+  
+  <rect width="1200" height="800" fill="#04140f" opacity="0.12"/>
+  <text x="72" y="738" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600"
+     fill="#ffffff" opacity="0.92" letter-spacing="1">Welcome to Jeena</text>
+</svg>

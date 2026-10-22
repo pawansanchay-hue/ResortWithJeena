@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Your Stay</title>
+  <meta name="description" content="Check live availability and book your room, suite or villa at Jeena Resort & Spa in three quick steps.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <section id="pageHead"></section>
+
+    <section class="section" data-section="booking/header">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Reservations</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+
+        <!-- stepper -->
+        <ol class="stepper" id="stepper" data-anim="up">
+          <li class="step active" data-step="1"><span>1</span><div><strong>Dates &amp; guests</strong><small>When are you visiting?</small></div></li>
+          <li class="step" data-step="2"><span>2</span><div><strong>Choose a room</strong><small>Pick your favourite</small></div></li>
+          <li class="step" data-step="3"><span>3</span><div><strong>Your details</strong><small>Confirm the reservation</small></div></li>
+        </ol>
+
+        <div class="grid" style="grid-template-columns:1.6fr 1fr;gap:40px;align-items:start" id="bookingLayout">
+          <!-- ------------------------------------------------------- steps -->
+          <div>
+            <!-- step 1 -->
+            <div class="card card-pad" data-panel="1" id="panel1">
+              <h3>When would you like to stay?</h3>
+              <p class="muted small">Rates update live. Minimum <span id="minNightsLabel">1</span> night(s), taxes extra.</p>
+              <form class="form" id="step1Form" novalidate>
+                <div class="form-row">
+                  <div class="field"><label for="bkIn">Check in <span class="req">*</span></label><input type="date" id="bkIn" required></div>
+                  <div class="field"><label for="bkOut">Check out <span class="req">*</span></label><input type="date" id="bkOut" required></div>
+                </div>
+                <div class="form-row">
+                  <div class="field"><label for="bkAdults">Adults</label>
+                    <select id="bkAdults">
+                      <option value="1">1 adult</option>
+                      <option value="2" selected>2 adults</option>
+                      <option value="3">3 adults</option>
+                      <option value="4">4 adults</option>
+                      <option value="5">5 adults</option>
+                      <option value="6">6 adults</option>
+                    </select></div>
+                  <div class="field"><label for="bkChildren">Children</label>
+                    <select id="bkChildren">
+                      <option value="0" selected>No children</option>
+                      <option value="1">1 child</option>
+                      <option value="2">2 children</option>
+                      <option value="3">3 children</option>
+                    </select></div>
+                </div>
+                <div class="form-row">
+                  <div class="field"><label for="bkCategory">Room type</label>
+                    <select id="bkCategory"><option value="">Any room type</option></select></div>
+                  <div class="field"><label for="bkRooms">Rooms needed</label>
+                    <select id="bkRooms">
+                      <option value="1" selected>1 room</option>
+                      <option value="2">2 rooms</option>
+                      <option value="3">3 rooms</option>
+                      <option value="4">4 rooms</option>
+                    </select></div>
+                </div>
+                <div id="step1Alert"></div>
+                <button class="btn btn-lg" type="submit" id="step1Btn">Check availability</button>
+                <p class="small muted mb-0">Free cancellation up to 48 hours before check-in. No prepayment needed.</p>
+              </form>
+            </div>
+
+            <!-- step 2 -->
+            <div class="card card-pad" data-panel="2" id="panel2" hidden>
+              <div class="flex items-center justify-between flex-wrap mb-2">
+                <div>
+                  <h3 class="mb-0">Available rooms</h3>
+                  <p class="muted small mb-0" id="availSummary"></p>
+                </div>
+                <button class="btn-link" type="button" id="back1">&larr; Change dates</button>
+              </div>
+              <div id="availRooms"></div>
+              <div class="flex justify-between mt-3">
+                <button class="btn btn-outline" type="button" id="back1b">&larr; Back</button>
+                <button class="btn" type="button" id="toStep3" disabled>Continue to details &rarr;</button>
+              </div>
+            </div>
+
+            <!-- step 3 -->
+            <div class="card card-pad" data-panel="3" id="panel3" hidden>
+              <div class="flex items-center justify-between flex-wrap mb-2">
+                <h3 class="mb-0">Your details</h3>
+                <button class="btn-link" type="button" id="back2">&larr; Change room</button>
+              </div>
+
+              <div id="signInHint"></div>
+
+              <form class="form" id="step3Form" novalidate>
+                <div class="form-row">
+                  <div class="field"><label for="gName">Full name <span class="req">*</span></label><input id="gName" required placeholder="Your name"></div>
+                  <div class="field"><label for="gPhone">Mobile number <span class="req">*</span></label><input id="gPhone" required placeholder="+91 ..."></div>
+                </div>
+                <div class="field"><label for="gEmail">Email <span class="req">*</span></label><input type="email" id="gEmail" required placeholder="you@example.com"></div>
+                <div class="form-row">
+                  <div class="field"><label for="gPayment">Payment preference</label>
+                    <select id="gPayment">
+                      <option>Pay after confirmation</option>
+                      <option>UPI / online transfer</option>
+                      <option>Card at the resort</option>
+                      <option>Cash at the resort</option>
+                    </select></div>
+                  <div class="field"><label for="gArrival">Estimated arrival</label>
+                    <select id="gArrival">
+                      <option>Before 2:00 PM</option>
+                      <option selected>2:00 PM - 6:00 PM</option>
+                      <option>6:00 PM - 9:00 PM</option>
+                      <option>After 9:00 PM</option>
+                    </select></div>
+                </div>
+                <div class="field"><label for="gNotes">Special requests</label>
+                  <textarea id="gNotes" placeholder="Airport pickup, high floor, anniversary cake, allergies..."></textarea></div>
+
+                <!-- food add-ons -->
+                <div class="mt-3">
+                  <div class="flex items-center justify-between flex-wrap">
+                    <h4 class="mb-0">Add food to your stay (optional)</h4>
+                    <span class="small muted" id="foodPickTotal">Nothing selected</span>
+                  </div>
+                  <div class="tabs mt-2" id="addonTabs"></div>
+                  <div class="grid grid-3" id="addonGrid"></div>
+                </div>
+
+                <div class="field mt-3">
+                  <label class="checkline" for="agreeTerms">
+                    <input type="checkbox" id="agreeTerms">
+                    <span>I agree to the resort booking terms and the cancellation policy.</span>
+                  </label>
+                </div>
+
+                <div id="step3Alert"></div>
+                <button class="btn btn-lg btn-block" type="submit" id="bookBtn">Confirm reservation</button>
+                <p class="small muted text-center mb-0">You will receive a confirmation email with your booking reference.</p>
+              </form>
+            </div>
+
+            <!-- success -->
+            <div class="card card-pad text-center" data-panel="4" id="panel4" hidden>
+              <div style="font-size:3.4rem">🎉</div>
+              <h3 id="successTitle">Reservation request received</h3>
+              <p class="lead" id="successMessage"></p>
+              <div class="summary text-left" id="successSummary"></div>
+              <div class="flex justify-center flex-wrap mt-3">
+                <a class="btn" href="/my-account.html?tab=bookings">View my bookings</a>
+                <a class="btn btn-outline" href="/food.html">Order more food</a>
+                <button class="btn btn-outline" type="button" id="bookAnother">Book another stay</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ------------------------------------------------------ summary -->
+          <aside style="position:sticky;top:calc(var(--nav-h) + 18px)" id="bookingAside">
+            <div class="card card-pad" data-anim="right">
+              <h3>Your reservation</h3>
+              <div id="summaryRoom" class="muted small">No room selected yet.</div>
+              <div class="summary mt-2" id="summaryBox"></div>
+              <ul class="info-list mt-2" id="summaryPolicy"></ul>
+              <a class="btn btn-block btn-outline" id="callBtn">Call to book on the phone</a>
+            </div>
+            <div class="summary mt-3">
+              <strong>Need a hand?</strong>
+              <p class="small mb-2">Our reservations desk is open 24 x 7 and replies within 2 hours.</p>
+              <a class="btn btn-sm btn-block btn-outline" href="/contact.html">Send an enquiry</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/booking.js"></script>
+</body>
+</html>

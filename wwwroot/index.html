@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <meta name="description" content="Book luxury rooms, suites and villas at Jeena Resort & Spa. Himalayan spa, farm-to-table dining and panoramic valley views.">
+  <meta property="og:title" content="Jeena Resort & Spa">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <!-- ---------------------------------------------------------- hero -->
+    <section class="hero" id="hero" data-setting-show="hero.enabled" aria-label="Welcome"></section>
+
+    <!-- ------------------------------------------------ availability bar -->
+    <div class="container" data-setting-show="hero.enabled">
+      <form class="search-bar" id="quickSearch" aria-label="Check availability">
+        <div class="field">
+          <label for="qsIn">Check in</label>
+          <input type="date" id="qsIn" name="checkIn" required>
+        </div>
+        <div class="field">
+          <label for="qsOut">Check out</label>
+          <input type="date" id="qsOut" name="checkOut" required>
+        </div>
+        <div class="field">
+          <label for="qsCat">Room type</label>
+          <select id="qsCat" name="categoryId"><option value="">All room types</option></select>
+        </div>
+        <div class="field">
+          <label for="qsAdults">Guests</label>
+          <select id="qsAdults" name="adults">
+            <option value="1">1 adult</option>
+            <option value="2" selected>2 adults</option>
+            <option value="3">3 adults</option>
+            <option value="4">4 adults</option>
+            <option value="5">5 adults</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="qsChildren">Children</label>
+          <select id="qsChildren" name="children">
+            <option value="0" selected>No children</option>
+            <option value="1">1 child</option>
+            <option value="2">2 children</option>
+            <option value="3">3 children</option>
+          </select>
+        </div>
+        <div class="field">
+          <label aria-hidden="true">&nbsp;</label>
+          <button class="btn btn-block" type="submit">Check availability</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- --------------------------------------------------------- about -->
+    <section class="section" data-section="index/about" data-setting-show="home.showAbout">
+      <div class="container">
+        <div class="grid grid-2 items-center" style="gap:56px">
+          <div data-anim="left">
+            <span class="eyebrow sym">Our resort</span>
+            <h2 class="section-title" data-cms="title"></h2>
+            <p class="lead" data-cms="subtitle"></p>
+            <p data-cms="body"></p>
+            <div class="flex flex-wrap mt-3">
+              <a class="btn" data-cms="button" href="/about.html">Discover our story</a>
+              <a class="btn btn-outline" href="/rooms.html">See rooms</a>
+            </div>
+          </div>
+          <div data-anim="right" style="position:relative">
+            <img class="float-slow" data-cms="image" src="/assets/about.svg" alt="About the resort"
+                 style="border-radius:var(--radius);box-shadow:var(--shadow-lg);width:100%">
+          </div>
+        </div>
+        <div class="grid grid-2 mt-4" data-cms="items" style="gap:30px 44px"></div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------- facilities -->
+    <section class="section section-alt" data-section="index/facilities" data-setting-show="home.showFacilities">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Facilities</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+        <div class="grid grid-3" id="facilitiesGrid"></div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------- stats -->
+    <section class="section section-dark" data-setting-show="home.showStats" id="statsSection">
+      <div class="container">
+        <div class="grid grid-4" id="statsGrid"></div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------- rooms -->
+    <section class="section" data-section="index/rooms" data-setting-show="home.showRooms">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Stay with us</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+        <div class="grid grid-3" id="roomsGrid"></div>
+        <div class="text-center mt-4" data-anim="up">
+          <a class="btn btn-outline btn-lg" data-cms="button" href="/rooms.html">View all rooms</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------- food -->
+    <section class="section section-alt" data-section="index/food" data-setting-show="home.showFood">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Dining</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+        <div class="tabs justify-center" id="foodTabs" style="justify-content:center"></div>
+        <div class="grid grid-3" id="foodGrid"></div>
+        <div class="text-center mt-4" data-anim="up">
+          <a class="btn btn-outline btn-lg" data-cms="button" href="/food.html">Explore the menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------- video -->
+    <section class="section" data-section="index/video" data-setting-show="home.showVideo">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Watch</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+        <div data-anim="zoom" id="homeVideo"></div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------- testimonials -->
+    <section class="section section-alt" data-section="index/testimonials" data-setting-show="home.showTestimonials">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Reviews</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+        <div class="carousel-track" id="testimonialTrack"></div>
+        <div class="carousel-nav">
+          <button type="button" data-scroll="prev" aria-label="Previous reviews">&#8249;</button>
+          <button type="button" data-scroll="next" aria-label="Next reviews">&#8250;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------- gallery -->
+    <section class="section" data-section="index/gallery" data-setting-show="home.showGallery">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Gallery</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+        <div class="text-center mt-4" data-anim="up">
+          <a class="btn btn-outline btn-lg" data-cms="button" href="/gallery.html">Open gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------- cta -->
+    <section class="section" data-section="index/cta" data-setting-show="home.showCta">
+      <div class="container">
+        <div class="cta-band" data-anim="zoom">
+          <div class="grid grid-2 items-center">
+            <div>
+              <h2 data-cms="title"></h2>
+              <p data-cms="subtitle"></p>
+            </div>
+            <div class="text-right flex justify-between items-center flex-wrap" style="justify-content:flex-end">
+              <a class="btn btn-lg" data-cms="button" href="/booking.html">Check availability</a>
+              <a class="btn btn-lg btn-outline-light" data-setting-href="social.whatsapp" href="#" target="_blank" rel="noopener">WhatsApp us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------- contact -->
+    <section class="section section-alt" data-section="index/contact" data-setting-show="home.showContactMap">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Location</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+        <div class="grid grid-2" style="gap:36px;align-items:start">
+          <div data-anim="left">
+            <ul class="info-list" id="contactInfo"></ul>
+            <div class="flex flex-wrap mt-3">
+              <a class="btn" href="/contact.html">Send an enquiry</a>
+              <a class="btn btn-outline" href="/booking.html">Book a room</a>
+            </div>
+          </div>
+          <div data-anim="right" id="homeMap"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/home.js"></script>
+</body>
+</html>

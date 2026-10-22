@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create an Account</title>
+  <meta name="description" content="Create a free account at Jeena Resort & Spa to book rooms, pre-order food and track your stays.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <section class="auth-wrap">
+      <div class="auth-card" data-anim="up">
+        <!-- step 1: the form -->
+        <div id="regForm" data-stage="form">
+          <div class="auth-head">
+            <span class="eyebrow sym">Join the resort</span>
+            <h1>Create your account</h1>
+            <p class="muted">One account for bookings, food orders and exclusive member offers.</p>
+          </div>
+
+          <ul class="auth-benefits">
+            <li>Free cancellation up to 48 hours before check-in</li>
+            <li>Track every reservation in one place</li>
+            <li>Pre-order food and skip the queue</li>
+            <li>Member-only seasonal rates</li>
+          </ul>
+
+          <form class="form" id="registerForm" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="rgName">Full name <span class="req">*</span></label>
+                <input id="rgName" autocomplete="name" required placeholder="Your full name">
+              </div>
+              <div class="field">
+                <label for="rgPhone">Mobile number <span class="req">*</span></label>
+                <input id="rgPhone" autocomplete="tel" required placeholder="+91 98765 43210">
+              </div>
+            </div>
+            <div class="field">
+              <label for="rgEmail">Email address <span class="req">*</span></label>
+              <input type="email" id="rgEmail" autocomplete="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="rgPassword">Password <span class="req">*</span></label>
+                <div class="input-group">
+                  <input type="password" id="rgPassword" autocomplete="new-password" required placeholder="At least 6 characters">
+                  <button class="input-group-btn" type="button" id="togglePw1" aria-label="Show password">&#128065;</button>
+                </div>
+              </div>
+              <div class="field">
+                <label for="rgConfirm">Confirm password <span class="req">*</span></label>
+                <input type="password" id="rgConfirm" autocomplete="new-password" required placeholder="Repeat your password">
+              </div>
+            </div>
+
+            <div class="pw-meter" id="pwMeter">
+              <i></i><i></i><i></i><i></i>
+              <span id="pwLabel">Password strength</span>
+            </div>
+
+            <label class="checkline" for="rgTerms">
+              <input type="checkbox" id="rgTerms">
+              <span>I agree to the resort terms of service and privacy policy.</span>
+            </label>
+            <label class="checkline" for="rgNews">
+              <input type="checkbox" id="rgNews" checked>
+              <span>Email me seasonal offers and resort news. Unsubscribe anytime.</span>
+            </label>
+
+            <div id="registerAlert"></div>
+            <button class="btn btn-lg btn-block" type="submit" id="registerBtn">Create account</button>
+          </form>
+
+          <p class="auth-foot">
+            Already registered? <a href="/login.html">Sign in instead</a>
+            <span class="muted">&middot;</span>
+            <a href="/index.html">Back to the resort</a>
+          </p>
+        </div>
+
+        <!-- step 2: verify the emailed code -->
+        <div id="verifyStage" hidden>
+          <div class="auth-head">
+            <span class="eyebrow sym">Almost there</span>
+            <h1>Verify your email</h1>
+            <p class="muted">Enter the code we sent to <strong id="verifyEmail"></strong>. It expires in <span id="verifyExpiry">10</span> minutes.</p>
+          </div>
+
+          <div id="devOtpHint"></div>
+          <div id="otpAlert"></div>
+
+          <div class="otp-inputs" id="otpInputs"></div>
+
+          <button class="btn btn-lg btn-block" type="button" id="verifyBtn">Verify and continue</button>
+          <div class="flex items-center justify-between flex-wrap mt-2">
+            <button class="btn-link" type="button" id="resendBtn">Resend the code</button>
+            <button class="btn-link" type="button" id="changeEmail">&larr; Use a different email</button>
+          </div>
+          <p class="small muted text-center mt-2" id="otpTimer"></p>
+        </div>
+
+        <!-- step 3: done -->
+        <div id="doneStage" hidden class="text-center">
+          <div style="font-size:3.4rem">✅</div>
+          <h1 id="doneTitle">You are all set!</h1>
+          <p class="lead" id="doneMessage"></p>
+          <div class="flex justify-center flex-wrap">
+            <a class="btn" href="/booking.html">Book a room</a>
+            <a class="btn btn-outline" href="/my-account.html">Open my account</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/register.js"></script>
+</body>
+</html>

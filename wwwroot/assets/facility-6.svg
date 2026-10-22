@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Conference Hall">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1b2f"/><stop offset="55%" stop-color="#3f3f6e"/><stop offset="100%" stop-color="#9aa0d0"/>
+    </linearGradient>
+    <linearGradient id="ridge0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#151528"/><stop offset="100%" stop-color="#151528" stop-opacity="0.35"/></linearGradient>
+    <linearGradient id="ridge1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#26264a"/><stop offset="100%" stop-color="#26264a" stop-opacity="0.5"/></linearGradient>
+    <linearGradient id="ridge2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#343465"/><stop offset="100%" stop-color="#343465" stop-opacity="0.7"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0%" stop-color="#e6e9ff" stop-opacity="0.9"/><stop offset="100%" stop-color="#e6e9ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="888" cy="224.00000000000003" r="220" fill="url(#glow)"/>
+  <circle cx="888" cy="224.00000000000003" r="58" fill="#e6e9ff" opacity="0.85"/>
+  <circle cx="120" cy="70" r="2.4" fill="#fff" opacity="0.5"/><circle cx="310" cy="104" r="1.6" fill="#fff" opacity="0.5"/><circle cx="500" cy="138" r="2.4" fill="#fff" opacity="0.5"/><circle cx="690" cy="70" r="1.6" fill="#fff" opacity="0.5"/><circle cx="880" cy="104" r="2.4" fill="#fff" opacity="0.5"/><circle cx="1070" cy="138" r="1.6" fill="#fff" opacity="0.5"/>
+  <polygon points="0,800 0,417 133,490 267,409 400,339 533,352 667,456 800,456 933,402 1067,340 1200,341 1200,800" fill="url(#ridge0)" opacity="0.85"/>
+  <polygon points="0,800 0,522 133,462 267,493 400,549 533,541 667,499 800,448 933,502 1067,565 1200,539 1200,800" fill="url(#ridge1)" opacity="0.9"/>
+  <polygon points="0,800 0,678 133,674 267,601 400,591 533,629 667,677 800,649 933,580 1067,573 1200,651 1200,800" fill="url(#ridge2)" opacity="0.95"/>
+  <g transform="translate(302,747) scale(0.90)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(980,764) scale(0.87)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(378,779) scale(1.12)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(86,732) scale(0.92)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(726,737) scale(1.16)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(496,741) scale(0.86)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1068,742) scale(0.55)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(233,763) scale(0.76)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(198,771) scale(0.91)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(463,770) scale(0.72)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1042,758) scale(0.99)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(966,772) scale(0.69)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1197,726) scale(0.83)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1005,734) scale(1.17)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#151528"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#151528"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g>
+  
+  <rect width="1200" height="800" fill="#04140f" opacity="0.12"/>
+  <text x="72" y="738" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600"
+     fill="#ffffff" opacity="0.92" letter-spacing="1">Conference Hall</text>
+</svg>

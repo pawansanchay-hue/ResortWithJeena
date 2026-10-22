@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+  <meta name="description" content="Photos and films from around Jeena Resort & Spa - rooms, dining, spa, trails and the valley.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <section id="pageHead"></section>
+
+    <section class="section" data-section="gallery/header">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Gallery</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+
+        <div class="tabs justify-center" id="galleryTabs" style="justify-content:center"></div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+        <p class="text-center muted mt-3" id="galleryCount"></p>
+      </div>
+    </section>
+
+    <section class="section section-alt" data-setting-show="home.showVideo">
+      <div class="container">
+        <div class="section-head text-center" data-anim="up">
+          <span class="eyebrow sym">Resort film</span>
+          <h2 class="section-title">See it before you arrive</h2>
+        </div>
+        <div id="galleryVideo" data-anim="zoom"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/gallery.js"></script>
+</body>
+</html>

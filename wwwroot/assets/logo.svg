@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 96" width="340" height="96" role="img" aria-label="Jeena Resort &amp; Spa">
+  <defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#e0bd6b"/><stop offset="100%" stop-color="#a9832e"/></linearGradient></defs>
+  <circle cx="48" cy="48" r="38" fill="url(#gold)"/>
+  <path d="M30 68 L48 26 L66 68 Z" fill="#0b1f18" opacity="0.85"/>
+  <path d="M20 68 h56" stroke="#0b1f18" stroke-width="5" stroke-linecap="round"/>
+  <text x="102" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#12261f">JEENA</text>
+  <text x="103" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="3.5" fill="#8a6f2f">RESORT &amp; SPA</text>
+</svg>

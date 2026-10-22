@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Jeena Resort &amp; Spa">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b2f26"/><stop offset="55%" stop-color="#1d6b52"/><stop offset="100%" stop-color="#8fd3b6"/>
+    </linearGradient>
+    <linearGradient id="ridge0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e3d31"/><stop offset="100%" stop-color="#0e3d31" stop-opacity="0.35"/></linearGradient>
+    <linearGradient id="ridge1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#12513f"/><stop offset="100%" stop-color="#12513f" stop-opacity="0.5"/></linearGradient>
+    <linearGradient id="ridge2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#186b52"/><stop offset="100%" stop-color="#186b52" stop-opacity="0.7"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0%" stop-color="#f2c96b" stop-opacity="0.9"/><stop offset="100%" stop-color="#f2c96b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="888" cy="224.00000000000003" r="220" fill="url(#glow)"/>
+  <circle cx="888" cy="224.00000000000003" r="58" fill="#f2c96b" opacity="0.85"/>
+  <circle cx="120" cy="70" r="2.4" fill="#fff" opacity="0.5"/><circle cx="310" cy="104" r="1.6" fill="#fff" opacity="0.5"/><circle cx="500" cy="138" r="2.4" fill="#fff" opacity="0.5"/><circle cx="690" cy="70" r="1.6" fill="#fff" opacity="0.5"/><circle cx="880" cy="104" r="2.4" fill="#fff" opacity="0.5"/><circle cx="1070" cy="138" r="1.6" fill="#fff" opacity="0.5"/>
+  <polygon points="0,800 0,339 133,425 267,485 400,422 533,334 667,331 800,423 933,480 1067,403 1200,316 1200,800" fill="url(#ridge0)" opacity="0.85"/>
+  <polygon points="0,800 0,573 133,485 267,463 400,508 533,559 667,575 800,500 933,456 1067,489 1200,555 1200,800" fill="url(#ridge1)" opacity="0.9"/>
+  <polygon points="0,800 0,617 133,654 267,647 400,595 533,592 667,631 800,669 933,666 1067,579 1200,589 1200,800" fill="url(#ridge2)" opacity="0.95"/>
+  <g transform="translate(601,720) scale(0.74)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(184,725) scale(0.87)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(788,755) scale(0.79)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(39,764) scale(0.56)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(253,769) scale(0.83)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1077,756) scale(1.07)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(208,750) scale(0.78)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(314,751) scale(0.53)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(231,751) scale(0.97)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(695,773) scale(1.19)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(8,728) scale(0.53)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(493,762) scale(0.52)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(2,775) scale(0.76)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1029,726) scale(0.56)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#0e3d31"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#0e3d31"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g>
+  
+  <rect width="1200" height="800" fill="#04140f" opacity="0.12"/>
+  <text x="72" y="738" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600"
+     fill="#ffffff" opacity="0.92" letter-spacing="1">Jeena Resort &amp; Spa</text>
+</svg>

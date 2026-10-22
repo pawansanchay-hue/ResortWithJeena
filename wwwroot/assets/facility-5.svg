@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Guided Forest Trails">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#062b2b"/><stop offset="55%" stop-color="#0f6b5c"/><stop offset="100%" stop-color="#a8e6c8"/>
+    </linearGradient>
+    <linearGradient id="ridge0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#08322f"/><stop offset="100%" stop-color="#08322f" stop-opacity="0.35"/></linearGradient>
+    <linearGradient id="ridge1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0d4a44"/><stop offset="100%" stop-color="#0d4a44" stop-opacity="0.5"/></linearGradient>
+    <linearGradient id="ridge2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#12605a"/><stop offset="100%" stop-color="#12605a" stop-opacity="0.7"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0%" stop-color="#eafff5" stop-opacity="0.9"/><stop offset="100%" stop-color="#eafff5" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="888" cy="224.00000000000003" r="220" fill="url(#glow)"/>
+  <circle cx="888" cy="224.00000000000003" r="58" fill="#eafff5" opacity="0.85"/>
+  <circle cx="120" cy="70" r="2.4" fill="#fff" opacity="0.5"/><circle cx="310" cy="104" r="1.6" fill="#fff" opacity="0.5"/><circle cx="500" cy="138" r="2.4" fill="#fff" opacity="0.5"/><circle cx="690" cy="70" r="1.6" fill="#fff" opacity="0.5"/><circle cx="880" cy="104" r="2.4" fill="#fff" opacity="0.5"/><circle cx="1070" cy="138" r="1.6" fill="#fff" opacity="0.5"/>
+  <polygon points="0,800 0,365 133,331 267,409 400,489 533,464 667,374 800,346 933,414 1067,473 1200,417 1200,800" fill="url(#ridge0)" opacity="0.85"/>
+  <polygon points="0,800 0,525 133,586 267,518 400,466 533,478 667,561 800,553 933,514 1067,469 1200,464 1200,800" fill="url(#ridge1)" opacity="0.9"/>
+  <polygon points="0,800 0,576 133,603 267,646 400,674 533,625 667,596 800,597 933,642 1067,665 1200,595 1200,800" fill="url(#ridge2)" opacity="0.95"/>
+  <g transform="translate(50,733) scale(0.70)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(429,766) scale(0.97)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(607,720) scale(1.09)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(237,744) scale(1.16)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(366,775) scale(1.17)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1160,721) scale(1.19)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(994,729) scale(0.56)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(621,758) scale(0.86)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(359,764) scale(0.58)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(200,763) scale(0.79)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(703,746) scale(0.91)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(294,730) scale(0.62)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(668,775) scale(1.06)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(244,770) scale(1.07)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#08322f"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#08322f"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g>
+  
+  <rect width="1200" height="800" fill="#04140f" opacity="0.12"/>
+  <text x="72" y="738" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600"
+     fill="#ffffff" opacity="0.92" letter-spacing="1">Guided Forest Trails</text>
+</svg>

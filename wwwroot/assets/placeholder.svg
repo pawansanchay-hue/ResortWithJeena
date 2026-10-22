@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Image">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1c0f"/><stop offset="55%" stop-color="#a8531f"/><stop offset="100%" stop-color="#f7c25c"/>
+    </linearGradient>
+    <linearGradient id="ridge0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2c170c"/><stop offset="100%" stop-color="#2c170c" stop-opacity="0.35"/></linearGradient>
+    <linearGradient id="ridge1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4a2712"/><stop offset="100%" stop-color="#4a2712" stop-opacity="0.5"/></linearGradient>
+    <linearGradient id="ridge2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6d3a1a"/><stop offset="100%" stop-color="#6d3a1a" stop-opacity="0.7"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0%" stop-color="#fff2c4" stop-opacity="0.9"/><stop offset="100%" stop-color="#fff2c4" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="888" cy="224.00000000000003" r="220" fill="url(#glow)"/>
+  <circle cx="888" cy="224.00000000000003" r="58" fill="#fff2c4" opacity="0.85"/>
+  <circle cx="120" cy="70" r="2.4" fill="#fff" opacity="0.5"/><circle cx="310" cy="104" r="1.6" fill="#fff" opacity="0.5"/><circle cx="500" cy="138" r="2.4" fill="#fff" opacity="0.5"/><circle cx="690" cy="70" r="1.6" fill="#fff" opacity="0.5"/><circle cx="880" cy="104" r="2.4" fill="#fff" opacity="0.5"/><circle cx="1070" cy="138" r="1.6" fill="#fff" opacity="0.5"/>
+  <polygon points="0,800 0,424 133,328 267,328 400,444 533,479 667,421 800,349 933,331 1067,428 1200,466 1200,800" fill="url(#ridge0)" opacity="0.85"/>
+  <polygon points="0,800 0,478 133,540 267,581 400,506 533,469 667,483 800,563 933,548 1067,501 1200,462 1200,800" fill="url(#ridge1)" opacity="0.9"/>
+  <polygon points="0,800 0,604 133,569 267,632 400,651 533,643 667,610 800,586 933,638 1067,648 1200,655 1200,800" fill="url(#ridge2)" opacity="0.95"/>
+  <g transform="translate(510,742) scale(1.02)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(997,751) scale(0.70)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(486,746) scale(0.57)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(971,753) scale(1.11)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(319,739) scale(0.56)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(968,737) scale(0.78)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(353,762) scale(1.15)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1112,740) scale(0.57)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(296,744) scale(0.89)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(670,769) scale(0.93)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(106,765) scale(0.68)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(1157,720) scale(0.95)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(786,746) scale(0.67)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g><g transform="translate(481,775) scale(1.09)" opacity="0.85">
+      <polygon points="0,-90 26,-30 -26,-30" fill="#2c170c"/>
+      <polygon points="0,-62 30,-6 -30,-6" fill="#2c170c"/>
+      <rect x="-5" y="-8" width="10" height="20" fill="#3a2a1c"/>
+    </g>
+  
+  <rect width="1200" height="800" fill="#04140f" opacity="0.12"/>
+  <text x="72" y="738" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600"
+     fill="#ffffff" opacity="0.92" letter-spacing="1">Image</text>
+</svg>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rooms &amp; Suites</title>
+  <meta name="description" content="Browse every room, suite, villa and cottage at Jeena Resort & Spa. Filter by category and price.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <section id="pageHead"></section>
+
+    <section class="section" data-section="rooms/header">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Accommodation</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+
+        <form class="search-bar" id="roomFilters" style="margin-bottom:34px" data-anim="up">
+          <div class="field">
+            <label for="rfSearch">Search</label>
+            <input type="search" id="rfSearch" placeholder="Room name or feature">
+          </div>
+          <div class="field">
+            <label for="rfCategory">Room type</label>
+            <select id="rfCategory"><option value="">All room types</option></select>
+          </div>
+          <div class="field">
+            <label for="rfPrice">Max price per night</label>
+            <select id="rfPrice">
+              <option value="">Any price</option>
+              <option value="7000">Under 7,000</option>
+              <option value="10000">Under 10,000</option>
+              <option value="15000">Under 15,000</option>
+              <option value="25000">Under 25,000</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="rfSort">Sort by</label>
+            <select id="rfSort">
+              <option value="default">Recommended</option>
+              <option value="price_asc">Price: low to high</option>
+              <option value="price_desc">Price: high to low</option>
+              <option value="name">Name (A-Z)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label aria-hidden="true">&nbsp;</label>
+            <button class="btn btn-block" type="submit">Apply filters</button>
+          </div>
+        </form>
+
+        <div class="flex items-center justify-between flex-wrap mb-2">
+          <p class="mb-0 muted" id="roomCount">Loading rooms...</p>
+          <button class="btn-link" type="button" id="clearFilters">Clear all filters</button>
+        </div>
+
+        <div class="grid grid-3" id="roomGrid"></div>
+        <div id="roomPager"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" data-setting-show="home.showFacilities">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Every stay includes</span>
+          <h2 class="section-title">Complimentary for all guests</h2>
+        </div>
+        <div class="grid grid-4" id="includedGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/rooms.js"></script>
+</body>
+</html>

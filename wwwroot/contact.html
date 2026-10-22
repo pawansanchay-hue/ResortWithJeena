@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+  <meta name="description" content="Contact Jeena Resort & Spa for reservations, weddings, events and general enquiries. Find us on the map.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <section id="pageHead"></section>
+
+    <section class="section" data-section="contact/header">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Get in touch</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+
+        <div class="grid grid-3 mb-4" id="contactCards"></div>
+
+        <div class="grid" style="grid-template-columns:1.25fr 1fr;gap:36px;align-items:start" id="contactLayout">
+          <!-- form -->
+          <div class="card" data-section="contact/form" data-anim="left">
+            <div class="card-body" style="padding:30px">
+              <h3 data-cms="title"></h3>
+              <p class="muted" data-cms="subtitle"></p>
+              <form class="form" id="contactForm" novalidate>
+                <div class="form-row">
+                  <div class="field"><label for="cfName">Full name <span class="req">*</span></label>
+                    <input id="cfName" name="name" required placeholder="Your name"></div>
+                  <div class="field"><label for="cfEmail">Email <span class="req">*</span></label>
+                    <input type="email" id="cfEmail" name="email" required placeholder="you@example.com"></div>
+                </div>
+                <div class="form-row">
+                  <div class="field"><label for="cfPhone">Phone</label>
+                    <input id="cfPhone" name="phone" placeholder="+91 ..."></div>
+                  <div class="field"><label for="cfSubject">Subject</label>
+                    <select id="cfSubject" name="subject">
+                      <option>Room reservation</option>
+                      <option>Food &amp; dining</option>
+                      <option>Wedding or event</option>
+                      <option>Spa booking</option>
+                      <option>Corporate / conference</option>
+                      <option>Feedback</option>
+                      <option>Something else</option>
+                    </select></div>
+                </div>
+                <div class="field"><label for="cfMessage">How can we help? <span class="req">*</span></label>
+                  <textarea id="cfMessage" name="message" required placeholder="Tell us your dates, number of guests and anything else we should know."></textarea></div>
+                <div id="contactAlert"></div>
+                <button class="btn btn-lg" type="submit" id="contactSubmit">Send message</button>
+                <p class="small muted mb-0">We usually reply within 2 working hours.</p>
+              </form>
+            </div>
+          </div>
+
+          <!-- map + info -->
+          <div data-anim="right">
+            <div id="contactMap"></div>
+            <div class="summary mt-3">
+              <h4>Plan your journey</h4>
+              <ul class="info-list">
+                <li><div><strong>By air</strong><span>Chandigarh airport (IXC) - 3 hours by car.</span></div></li>
+                <li><div><strong>By train</strong><span>Kalka railway station - 1 hour 40 minutes.</span></div></li>
+                <li><div><strong>By road</strong><span>Delhi to Kasauli is about 340 km, 6 hours.</span></div></li>
+                <li><div><strong>Airport pickup</strong><span>Available on request, surcharge applies.</span></div></li>
+              </ul>
+              <a class="btn btn-block btn-outline mt-2" href="/booking.html">Check availability</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Common questions</span>
+          <h2 class="section-title">Frequently asked</h2>
+        </div>
+        <div class="grid grid-2" id="faqGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us</title>
+  <meta name="description" content="Family run since 2008, quietly reimagined in 2024. Meet the people, the mission and the facilities at Jeena Resort & Spa.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <section id="pageHead"></section>
+
+    <!-- story -->
+    <section class="section" data-section="about/story">
+      <div class="container">
+        <div class="grid grid-2 items-center" style="gap:56px">
+          <div data-anim="left">
+            <span class="eyebrow sym">Our story</span>
+            <h2 class="section-title" data-cms="title"></h2>
+            <p class="lead" data-cms="subtitle"></p>
+            <p data-cms="body"></p>
+            <div class="flex flex-wrap mt-3">
+              <a class="btn" href="/rooms.html">See our rooms</a>
+              <a class="btn btn-outline" href="/contact.html">Talk to us</a>
+            </div>
+          </div>
+          <div data-anim="right">
+            <img data-cms="image" src="/assets/about.svg" alt="The resort"
+                 style="border-radius:var(--radius);box-shadow:var(--shadow-lg);width:100%">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- mission -->
+    <section class="section section-alt" data-section="about/mission">
+      <div class="container">
+        <div class="grid grid-2 items-center" style="gap:56px">
+          <div data-anim="right">
+            <img data-cms="image" src="/assets/gallery-5.svg" alt="Sustainability"
+                 style="border-radius:var(--radius);box-shadow:var(--shadow-lg);width:100%">
+          </div>
+          <div data-anim="left">
+            <span class="eyebrow sym">What we stand for</span>
+            <h2 class="section-title" data-cms="title"></h2>
+            <p class="lead" data-cms="subtitle"></p>
+            <p data-cms="body"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- stats -->
+    <section class="section section-dark" data-setting-show="home.showStats">
+      <div class="container">
+        <div class="grid grid-4" id="aboutStats"></div>
+      </div>
+    </section>
+
+    <!-- team -->
+    <section class="section" data-section="about/team">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Our people</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+        <div class="grid grid-4" data-cms="items"></div>
+      </div>
+    </section>
+
+    <!-- facilities -->
+    <section class="section section-alt" data-setting-show="home.showFacilities">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Facilities</span>
+          <h2 class="section-title">Everything on the property</h2>
+          <p class="section-sub">Spa, pool, restaurant, trails, conference hall and a play zone for the little ones.</p>
+        </div>
+        <div class="grid grid-3" id="aboutFacilities"></div>
+      </div>
+    </section>
+
+    <!-- gallery strip -->
+    <section class="section" data-setting-show="home.showGallery">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Gallery</span>
+          <h2 class="section-title">A look around</h2>
+        </div>
+        <div class="gallery-grid" id="aboutGallery"></div>
+        <div class="text-center mt-4"><a class="btn btn-outline" href="/gallery.html">Open full gallery</a></div>
+      </div>
+    </section>
+
+    <!-- cta -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="cta-band" data-anim="zoom">
+          <div class="grid grid-2 items-center">
+            <div>
+              <h2>Come and stay with us</h2>
+              <p>Book direct for the best rates, free cancellation and a complimentary welcome drink on arrival.</p>
+            </div>
+            <div class="flex flex-wrap" style="justify-content:flex-end">
+              <a class="btn btn-lg" href="/booking.html">Check availability</a>
+              <a class="btn btn-lg btn-outline-light" href="/contact.html">Ask a question</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/about.js"></script>
+</body>
+</html>

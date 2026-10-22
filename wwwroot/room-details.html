@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Room Details</title>
+  <meta name="description" content="Room details, photos, amenities and instant booking at Jeena Resort & Spa.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <div class="container" style="padding-top:26px">
+      <nav class="breadcrumb" style="justify-content:flex-start;color:var(--muted)" id="crumbs"></nav>
+    </div>
+
+    <section class="section" style="padding-top:18px">
+      <div class="container">
+        <div id="roomDetail"><div class="spinner"></div></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="relatedSection" hidden>
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">You may also like</span>
+          <h2 class="section-title">Similar rooms</h2>
+        </div>
+        <div class="grid grid-3" id="relatedGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/room-details.js"></script>
+</body>
+</html>

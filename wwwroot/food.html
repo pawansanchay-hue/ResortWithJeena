@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurant &amp; Menu</title>
+  <meta name="description" content="Himachali classics, tandoori favourites, continental plates and desserts at Jeena Resort & Spa. Order to your room in a few taps.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="topbar"></div>
+  <header id="siteHeader"></header>
+
+  <main>
+    <section id="pageHead"></section>
+
+    <section class="section" data-section="food/header">
+      <div class="container">
+        <div class="section-head" data-anim="up">
+          <span class="eyebrow sym">Dining</span>
+          <h2 class="section-title" data-cms="title"></h2>
+          <p class="section-sub" data-cms="subtitle"></p>
+        </div>
+
+        <form class="search-bar" id="foodFilters" style="margin-bottom:26px" data-anim="up">
+          <div class="field">
+            <label for="ffSearch">Search the menu</label>
+            <input type="search" id="ffSearch" placeholder="Dish name or ingredient">
+          </div>
+          <div class="field">
+            <label for="ffCategory">Category</label>
+            <select id="ffCategory"><option value="">All categories</option></select>
+          </div>
+          <div class="field">
+            <label for="ffVeg">Preference</label>
+            <select id="ffVeg">
+              <option value="">Everything</option>
+              <option value="true">Vegetarian only</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="ffSort">Sort by</label>
+            <select id="ffSort">
+              <option value="default">Menu order</option>
+              <option value="price_asc">Price: low to high</option>
+              <option value="price_desc">Price: high to low</option>
+              <option value="name">Name (A-Z)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label aria-hidden="true">&nbsp;</label>
+            <button class="btn btn-block" type="submit">Search menu</button>
+          </div>
+        </form>
+
+        <div class="tabs" id="foodCatTabs"></div>
+
+        <div class="flex items-center justify-between flex-wrap mb-2">
+          <p class="mb-0 muted" id="foodCount">Loading menu...</p>
+          <button class="btn-link" type="button" id="clearFoodFilters">Clear filters</button>
+        </div>
+
+        <div class="grid grid-3" id="foodGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="grid grid-2 items-center" style="gap:46px">
+          <div data-anim="left">
+            <span class="eyebrow sym">Room service</span>
+            <h2>Dining in your room, or on the terrace</h2>
+            <p class="lead">Add dishes to your order and choose dine-in, room service or takeaway at checkout. Kitchen open 7:00 am to 11:00 pm.</p>
+            <ul class="info-list">
+              <li><div><strong>Breakfast</strong><span>7:00 am - 10:30 am, included with every room.</span></div></li>
+              <li><div><strong>Lunch &amp; dinner</strong><span>12:30 pm - 3:00 pm and 7:00 pm - 11:00 pm.</span></div></li>
+              <li><div><strong>Bonfire nights</strong><span>Friday and Saturday, live folk music on the lawn.</span></div></li>
+            </ul>
+          </div>
+          <div data-anim="right"><img src="/assets/food-6.svg" alt="Dining at the resort" style="border-radius:var(--radius);box-shadow:var(--shadow-lg)"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+  <script type="module" src="/js/food.js"></script>
+</body>
+</html>

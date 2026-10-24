@@ -271,12 +271,17 @@ body.hero-header #hero { margin-top: calc(-1 * var(--nav-h)); }
   position: fixed; inset: 0 0 0 auto; width: min(360px, 88vw); background: var(--card-bg);
   z-index: 200; transform: translateX(105%); transition: transform .38s var(--ease);
   display: flex; flex-direction: column; box-shadow: var(--shadow-lg); overflow-y: auto;
+  color: var(--heading);
 }
 .drawer.open { transform: translateX(0); }
 .drawer-head { display: flex; align-items: center; justify-content: space-between; padding: 18px 22px; border-bottom: 1px solid var(--border); }
 .drawer-body { padding: 14px 22px 30px; }
-.drawer .nav-link { display: block; width: 100%; text-align: left; padding: 13px 6px; border-bottom: 1px solid var(--border); font-size: 1rem; }
+.drawer .nav-link { display: block; width: 100%; text-align: left; padding: 13px 6px; border-bottom: 1px solid var(--border); font-size: 1rem; color: var(--heading); }
 .drawer .nav-link::after { display: none; }
+/* The drawer is a light surface. The transparent header paints its own links
+   white, so re-state the colour at drawer level to keep every label readable. */
+.header.over-hero .drawer .nav-link,
+.header.over-hero.is-scrolled .drawer .nav-link { color: var(--heading); }
 .drawer-close { background: none; border: 0; font-size: 1.7rem; line-height: 1; cursor: pointer; color: var(--heading); }
 .overlay {
   position: fixed; inset: 0; background: rgba(4, 20, 15, .55); backdrop-filter: blur(2px);
